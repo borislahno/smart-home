@@ -12,7 +12,7 @@ const Layout: React.FC<LayoutProps> = ({children}) =>
 	<>
 		<SideMenu/>
 		<Header/>
-		<Box as="main" py="35px" pl="172px">
+		<Box as="main" my="35px" pl="172px"pr="31px">
 			{children}
 		</Box>
 	</>

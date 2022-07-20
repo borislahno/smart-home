@@ -16,29 +16,16 @@ import {Settings} from "../../icons/Settings";
 import {Bell} from "../../icons/Bell";
 import {Arrow} from "../../icons/Arrow";
 
-import userLogo from '../../assets/images/scarlett.svg';
+import userLogo from '../../assets/images/members/scarlett.webp';
 
 const Header: React.FC = () =>
 	<Flex as="header" pt="36px" pl="172px" pr="31px" justify="space-between" align="center" gap="5">
 		<InputGroup maxWidth="542px">
-			<InputLeftElement
-				pointerEvents="none"
-				children={<Search boxSize={'14px'}/>}
-				height="100%"
-				width="auto"
+			<InputLeftElement pointerEvents="none" children={<Search boxSize={'14px'}/>} height="100%" width="auto"
 				left="23px"
 			/>
-			<Input
-				placeholder="Search"
-				backgroundColor="gray.300"
-				border="none"
-				borderRadius="15px"
-				height="50px"
-				pl="52px"
-				fontSize="sm"
-				lineHeight="4"
-				letterSpacing="0.14px"
-				_placeholder={{}}
+			<Input placeholder="Search" backgroundColor="gray.300" border="none" borderRadius="15px" height="50px"
+				pl="52px" fontSize="sm" lineHeight="4" letterSpacing="0.14px" _placeholder={{}}
 			/>
 		</InputGroup>
 		<Flex color="black.800" gap="8" align="center">
@@ -56,9 +43,7 @@ const Header: React.FC = () =>
 						<Arrow color="black.800"/>
 					</Flex>
 				</MenuButton>
-				<MenuList>
-
-				</MenuList>
+				<MenuList></MenuList>
 			</Menu>
 		</Flex>
 	</Flex>

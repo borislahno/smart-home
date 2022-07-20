@@ -25,7 +25,8 @@ export const styles = {
 			width: '100%',
 			minWidth: '375px',
 			fontFamily: `Mulish`,
-			backgroundColor:'gray.50'
+			backgroundColor: 'gray.50',
+			color: 'black.800',
 		},
 		'input, button, textarea': {
 			fontFamily: 'inherit'
