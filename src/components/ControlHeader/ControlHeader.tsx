@@ -5,11 +5,11 @@ import {Thermometer} from "../../icons/Thermometer";
 import {Arrow} from "../../icons/Arrow";
 
 const ControlHeader: React.FC = () =>
-	<Flex justify="space-between" align="center">
+	<Flex justify="space-between" align="center" gap='10px' wrap="wrap">
 		<Heading as="h2" fontSize="2xl" fontWeight="700" lineHeight="1.875rem" letterSpacing="0.06rem" color="black.800">
 			Scarlett’s Home
 		</Heading>
-		<Flex align="center" gap="29px">
+		<Flex align="center" gap={{xl:"29px","sm":"15px"}}>
 			<Flex align="center" gap="5px">
 				<Humidity fontSize="1rem"/>
 				<Text as="span" fontFamily="Lato" fontSize="0.94rem" fontWeight="700" lineHeight="1.125rem" color="black.800">

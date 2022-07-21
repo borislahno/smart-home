@@ -8,7 +8,7 @@ type InformationHeadProps = {
 }
 
 const InformationHead: React.FC<InformationHeadProps> = ({title, menu}) =>
-	<Flex justify="space-between" mb="20px">
+	<Flex justify="space-between" align="center" wrap="wrap" gap={{"3sm": "10px", base: "5px"}} mb="20px">
 		<Text as="h2" fontWeight="semibold" fontSize="lg" lineHeight="1.875rem" letterSpacing="0.05rem">
 			{title}
 		</Text>

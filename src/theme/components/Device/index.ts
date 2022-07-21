@@ -2,7 +2,6 @@ export const Device = {
 	parts: ['device', 'head', 'footer'],
 	baseStyle: {
 		device: {
-			maxWidth: '163px',
 			bgColor: "white",
 			borderRadius: "25px",
 			border: "1px solid rgba(230, 229, 242, 0.811762)",
@@ -32,7 +31,6 @@ export const Device = {
 	sizes: {
 		md: {
 			device: {
-				maxWidth: "204px",
 				pl: "20px",
 				pr: "14px",
 				pt: "28px",

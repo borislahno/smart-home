@@ -6,7 +6,7 @@ import Information from "../../components/Infromation/Information";
 import Room from "../../components/Room/Room";
 
 const Home: React.FC = () =>
-	<Flex gap="40px">
+	<Flex gap={{lg: "40px", base: "20px"}} direction={{md: "row", base: "column"}}>
 		<Box flex="0 1 743px">
 			<Welcome/>
 			<HomeControl/>

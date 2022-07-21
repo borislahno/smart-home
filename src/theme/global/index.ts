@@ -27,6 +27,12 @@ export const styles = {
 			fontFamily: `Mulish`,
 			backgroundColor: 'gray.50',
 			color: 'black.800',
+			'@media(max-width: 769px)': {
+				fontSize: '14px',
+			}
+		},
+		'.lock': {
+			overflow: "hidden",
 		},
 		'input, button, textarea': {
 			fontFamily: 'inherit'

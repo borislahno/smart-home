@@ -8,8 +8,8 @@ type LinkItemProps = {
 }
 
 const LinkItem: React.FC<LinkItemProps> = ({link, icon, className}) =>
-	<ListItem className={className} width="full" height="55px"
-						_hover={{
+	<ListItem className={className} width={{"2lg":"full", base:"auto"}} height="55px"
+						_hover={{"2lg":{
 							':not(:first-of-type)': {
 								position:"relative",
 								color: "purple",
@@ -37,7 +37,7 @@ const LinkItem: React.FC<LinkItemProps> = ({link, icon, className}) =>
 									boxShadow:'7.5px -7.5px 0 7.5px #F9F9F9',
 								}
 							}
-						}}>
+						},base:{}}}>
 		<Link href={link} display="flex" justifyContent="center" alignItems="center" boxSize="14">
 			{icon}
 		</Link>

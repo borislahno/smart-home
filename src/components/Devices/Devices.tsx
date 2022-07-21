@@ -20,15 +20,23 @@ const Devices: React.FC = () =>
 				</MenuButton>
 			</Menu>
 		}/>
-		<Flex wrap="wrap" gap="15px">
+		<Flex wrap="wrap" gap="15px" justify="center">
 			<Device name="Refridgerator" icon={<Refridgerator width="18px" height="29px"/>}
-							flex="0 0 48%" type="switchHead" size="md" variant="purple" switchVariant="purple"/>
+							flex={{lg: '0 1 47%', md: "0 1 100%", "2sm": '0 1 48%', base: "0 1 70%"}} type="switchHead" size="md"
+							variant="purple"
+							switchVariant="purple"/>
 			<Device name="Router" icon={<Router width="26px" height="23px"/>}
-							flex="0 0 48%" type="switchHead" size="md" variant="yellow" switchVariant="yellow"/>
+							flex={{lg: '0 1 47%', md: "0 1 100%", "2sm": '0 1 48%', base: "0 1 70%"}} type="switchHead" size="md"
+							variant="yellow"
+							switchVariant="yellow"/>
 			<Device name="Music System" icon={<MusicSystem boxSize="25px"/>}
-							flex="0 0 48%" type="switchHead" size="md" variant="orange" switchVariant="orange"/>
+							flex={{lg: '0 1 47%', md: "0 1 100%", "2sm": '0 1 48%', base: "0 1 70%"}} type="switchHead" size="md"
+							variant="orange"
+							switchVariant="orange"/>
 			<Device name="Lamps" icon={<Lamp width="23px" height="25px"/>}
-							flex="0 0 48%" type="switchHead" size="md" variant="turquoise" switchVariant="turquoise"/>
+							flex={{lg: '0 1 47%', md: "0 1 100%", "2sm": '0 1 48%', base: "0 1 70%"}} type="switchHead" size="md"
+							variant="turquoise"
+							switchVariant="turquoise"/>
 		</Flex>
 	</Box>
 

@@ -11,15 +11,15 @@ import Device from "../Device/Device";
 const HomeControl: React.FC = () =>
 	<Box>
 		<ControlHeader/>
-		<Flex mt="24px" justify="space-between" gap="10px">
+		<Flex mt="24px" wrap={{xl: "nowrap", base: "wrap"}} justify="space-between" gap="10px">
 			<Device name="Refridgerator" icon={<Refridgerator width="18px" height="29px"/>}
-							flex="1 1 163px"/>
+							flex={{xl: "1 1 163px", md: "0 1 48%", base: "0 1 48%"}}/>
 			<Device name="Temperature" icon={<Lightning width="15px" height="29px"/>}
-							flex="1 1 163px" variant="active"/>
+							flex={{xl: "1 1 163px", md: "0 1 48%", base: "0 1 48%"}} variant="active"/>
 			<Device name="Air Conditioner" icon={<Conditioner width="28px" height="18px"/>}
-							flex="1 1 163px"/>
+							flex={{xl: "1 1 163px", md: "0 1 48%", base: "0 1 48%"}}/>
 			<Device name="Lights" icon={<Light width="23px" height="27px"/>}
-							flex="1 1 163px"/>
+							flex={{xl: "1 1 163px", md: "0 1 48%", base: "0 1 48%"}}/>
 		</Flex>
 	</Box>
 

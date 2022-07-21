@@ -13,15 +13,15 @@ import momAvatar from "../../assets/images/members/mom.webp";
 const Members = () =>
 	<Box mt="26px" mb="28px">
 		<InformationHead title="Members"/>
-		<Flex gap="25px" overflowX="auto" pt="24px" pb="14px" px="21px" bgColor="white"
-					border="1px solid rgba(230, 229, 242, 0.811762)" borderRadius="28px"
-					sx={{'::-webkit-scrollbar': {width: 0, height: 0}}}>
-			<Member avatarUrl={scralettAvatar} name="Scarlett" role="Admin"/>
-			<Member avatarUrl={nariyaAvatar} name="Nariya" role="Full Access"/>
-			<Member avatarUrl={riyaAvatar} name="Riya" role="Full Access"/>
-			<Member avatarUrl={dadAvatar} name="Dad" role="Full Access"/>
-			<Member avatarUrl={momAvatar} name="Mom" role="Full Access"/>
-		</Flex>
+			<Flex gap="22px" wrap="wrap" justify="center" pb="14px" px="21px" pt="24px" bgColor="white"
+						border="1px solid rgba(230, 229, 242, 0.811762)" borderRadius="28px"
+						sx={{'::-webkit-scrollbar': {width: 0, height: 0}}}>
+				<Member avatarUrl={scralettAvatar} name="Scarlett" role="Admin"/>
+				<Member avatarUrl={nariyaAvatar} name="Nariya" role="Full Access"/>
+				<Member avatarUrl={riyaAvatar} name="Riya" role="Full Access"/>
+				<Member avatarUrl={dadAvatar} name="Dad" role="Full Access"/>
+				<Member avatarUrl={momAvatar} name="Mom" role="Full Access"/>
+			</Flex>
 	</Box>
 
 export default Members;

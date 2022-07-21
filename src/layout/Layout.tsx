@@ -2,7 +2,6 @@ import React from 'react';
 import {ReactNode} from "react";
 import Header from "../components/Header/Header";
 import {Box} from "@chakra-ui/react";
-import SideMenu from "../components/SideMenu/SideMenu";
 
 type LayoutProps = {
 	children: ReactNode,
@@ -10,9 +9,8 @@ type LayoutProps = {
 
 const Layout: React.FC<LayoutProps> = ({children}) =>
 	<>
-		<SideMenu/>
 		<Header/>
-		<Box as="main" my="35px" pl="172px"pr="31px">
+		<Box as="main" my="35px" pl={{"2lg": "172px", base: "20px"}} pr={{"2lg": "31px", base: "20px"}} pb="35px">
 			{children}
 		</Box>
 	</>
