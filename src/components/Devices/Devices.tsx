@@ -1,5 +1,5 @@
 import React from "react";
-import {Box, Flex, Text, Menu, MenuButton, MenuList, Button} from "@chakra-ui/react";
+import {Box, Flex, Menu, MenuButton, Button} from "@chakra-ui/react";
 import {Refridgerator} from "../../icons/Refridgerator";
 import Device from "../Device/Device";
 import {Router} from "../../icons/Router";
@@ -22,21 +22,21 @@ const Devices: React.FC = () =>
 		}/>
 		<Flex wrap="wrap" gap="15px" justify="center">
 			<Device name="Refridgerator" icon={<Refridgerator width="18px" height="29px"/>}
-							flex={{lg: '0 1 47%', md: "0 1 100%", "2sm": '0 1 48%', base: "0 1 70%"}} type="switchHead" size="md"
-							variant="purple"
-							switchVariant="purple"/>
+							flex={{lg: '0 1 47%', md: "0 1 100%", "2sm": '0 1 48%', base: "0 1 70%"}}
+							type="switchHead" size="md"
+							variant="purple" switchVariant="purple"/>
 			<Device name="Router" icon={<Router width="26px" height="23px"/>}
-							flex={{lg: '0 1 47%', md: "0 1 100%", "2sm": '0 1 48%', base: "0 1 70%"}} type="switchHead" size="md"
-							variant="yellow"
-							switchVariant="yellow"/>
+							flex={{lg: '0 1 47%', md: "0 1 100%", "2sm": '0 1 48%', base: "0 1 70%"}}
+							type="switchHead" size="md"
+							variant="yellow" switchVariant="yellow"/>
 			<Device name="Music System" icon={<MusicSystem boxSize="25px"/>}
-							flex={{lg: '0 1 47%', md: "0 1 100%", "2sm": '0 1 48%', base: "0 1 70%"}} type="switchHead" size="md"
-							variant="orange"
-							switchVariant="orange"/>
+							flex={{lg: '0 1 47%', md: "0 1 100%", "2sm": '0 1 48%', base: "0 1 70%"}}
+							type="switchHead" size="md"
+							variant="orange" switchVariant="orange"/>
 			<Device name="Lamps" icon={<Lamp width="23px" height="25px"/>}
-							flex={{lg: '0 1 47%', md: "0 1 100%", "2sm": '0 1 48%', base: "0 1 70%"}} type="switchHead" size="md"
-							variant="turquoise"
-							switchVariant="turquoise"/>
+							flex={{lg: '0 1 47%', md: "0 1 100%", "2sm": '0 1 48%', base: "0 1 70%"}}
+							type="switchHead" size="md"
+							variant="turquoise" switchVariant="turquoise"/>
 		</Flex>
 	</Box>
 

@@ -33,6 +33,9 @@ export const styles = {
 		},
 		'.lock': {
 			overflow: "hidden",
+			'@media(min-width: 1200px)': {
+				overflow: "auto",
+			}
 		},
 		'input, button, textarea': {
 			fontFamily: 'inherit'

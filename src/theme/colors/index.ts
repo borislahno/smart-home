@@ -16,7 +16,7 @@ export const colors = {
 		500: '#F4C427',
 	},
 	orange: {
-		400:'#F2946D',
+		400: '#F2946D',
 		500: '#FF9060',
 	},
 	turquoise: {
@@ -29,5 +29,6 @@ export const colors = {
 		300: '#EDEEF4',
 		400: '#9897AD',
 		500: '#EDEDF59A',
+		600: '#ACAFB5',
 	}
 }

@@ -12,6 +12,7 @@ type DeviceCardType =
 
 
 export const useDeviceCard: DeviceCardType = (icon, variant, switchVariant, type, size) => {
+
 	const [check, setCheck] = useState<boolean>(false);
 
 	const onCheckChange = () => setCheck(!check);

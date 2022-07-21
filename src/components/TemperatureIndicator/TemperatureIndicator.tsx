@@ -40,14 +40,18 @@ const TemperatureIndicator: React.FC = () => {
 														 fill="transparent"/>
 						</chakra.svg>
 					</Box>
+
 					<Box position="absolute" top="50%" left="50%" transform="translate(-50%,-50%)"
 							 boxSize={{lg: "210px", base: "120px"}}
 							 borderRadius="full" bgColor="gray.200" boxShadow="inset 0px 1px 5px rgba(130, 130, 130, 0.584271)"/>
+
 					<Box position="absolute" top="50%" left="50%" transform="translate(-50%,-50%)"
 							 boxSize={{lg: "175px", base: "100px"}} borderRadius="full" bgColor="white"/>
+
 					<Box position="absolute" top="50%" left="50%" transform="translate(-50%,-50%)"
 							 boxSize={{lg: "152px", base: "85px"}} borderRadius="full" border="1px solid #ECEBF2"
 							 bgColor="transparent"/>
+
 					<Box position="absolute" top="50%" left="50%" transform="translate(-50%,-50%)" textAlign="center"
 							 fontFamily="Lato" fontWeight="400">
 						<Text fontSize={{lg: "2.3rem", base: "1.6rem"}} lineHeight={{lg: "2.187rem", base: "1.8rem"}} mb="5px">

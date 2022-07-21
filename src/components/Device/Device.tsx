@@ -1,5 +1,5 @@
-import React, {ReactNode, useState} from "react";
-import {Box, chakra, Flex, Switch, Text, useMultiStyleConfig} from "@chakra-ui/react";
+import React, {ReactNode} from "react";
+import {Box, chakra} from "@chakra-ui/react";
 import {useDeviceCard} from "./hooks/useDeviceCard";
 
 export type DeviceProps = {
@@ -22,7 +22,7 @@ const Device: React.FC<DeviceProps> = ({
 																				 className,
 																			 }) => {
 
-	const [styles, content] = useDeviceCard(icon,variant, switchVariant, type, size);
+	const [styles, content] = useDeviceCard(icon, variant, switchVariant, type, size);
 
 	return (
 		<Box __css={styles.device} className={className} display="flex" flexDirection="column">
