@@ -6,7 +6,7 @@ type ControlButtonProps = {
 	className?: string,
 }
 
-const ControlButton: React.FC<ControlButtonProps> = ({icon,className}) =>
+const ControlButton: React.FC<ControlButtonProps> = ({icon, className}) =>
 	<Button className={className} boxSize="54px" borderRadius="12px" bgColor="gray.200" color="gray.400"
 					_hover={{
 						backgroundColor: 'purple',
